@@ -1,0 +1,1 @@
+{"className":"com.karurmallow.demotestingapp.common.MANetworkMonitor$networkCallback$1","classAnnotations":["androidx.annotation.RequiresApi"],"interfaces":[],"superClasses":["android.net.ConnectivityManager$NetworkCallback","java.lang.Object"]}

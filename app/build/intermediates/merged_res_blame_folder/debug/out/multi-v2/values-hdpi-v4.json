@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.karurmallow.demotestingapp-mergeDebugResources-44:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gunas\\.gradle\\caches\\transforms-3\\40cf0bfca827bb3f640367273cc9a10e\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

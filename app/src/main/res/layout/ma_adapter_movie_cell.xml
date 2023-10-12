@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/spacing_150"
+    android:layout_marginTop="@dimen/spacing_5"
+    android:background="@drawable/bg_movie_cell">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_movie_poster"
+        android:layout_width="@dimen/spacing_70"
+        android:layout_height="@dimen/spacing_110"
+        android:layout_marginStart="@dimen/spacing_10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundedSquare"
+        app:srcCompat="@drawable/iv_movie_cover_poster"
+        app:strokeColor="@color/white"
+        app:strokeWidth="@dimen/spacing_5" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_movie_details"
+        android:layout_width="@dimen/spacing_0"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_movie_poster"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_movie_name"
+            android:layout_width="@dimen/spacing_0"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_14"
+            android:layout_marginEnd="@dimen/spacing_14"
+            android:ellipsize="end"
+            android:maxLines="@integer/integer_1"
+            android:text="@string/movie_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_19"
+            app:layout_constraintEnd_toEndOf="@id/cl_movie_details"
+            app:layout_constraintStart_toStartOf="@id/cl_movie_details"
+            app:layout_constraintTop_toTopOf="@id/cl_movie_details" />
+
+        <TextView
+            android:id="@+id/tv_movie_data"
+            android:layout_width="@dimen/spacing_0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_5"
+            android:text="@string/movie_date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_10"
+            app:layout_constraintEnd_toEndOf="@id/tv_movie_name"
+            app:layout_constraintStart_toStartOf="@id/tv_movie_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_movie_name" />
+
+        <TextView
+            android:id="@+id/tv_movie_descriptions"
+            android:layout_width="@dimen/spacing_0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_5"
+            android:ellipsize="end"
+            android:lineSpacingExtra="@dimen/font_2"
+            android:maxLines="@integer/integer_3"
+            android:text="@string/movie_description"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_12"
+            app:layout_constraintEnd_toEndOf="@id/tv_movie_data"
+            app:layout_constraintStart_toStartOf="@id/tv_movie_data"
+            app:layout_constraintTop_toBottomOf="@id/tv_movie_data" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

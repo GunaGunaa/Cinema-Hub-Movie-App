@@ -1,0 +1,1 @@
+{"className":"com.karurmallow.demotestingapp.repository.local.MADataBaseManager","classAnnotations":["androidx.room.Database"],"interfaces":[],"superClasses":["androidx.room.RoomDatabase","java.lang.Object"]}

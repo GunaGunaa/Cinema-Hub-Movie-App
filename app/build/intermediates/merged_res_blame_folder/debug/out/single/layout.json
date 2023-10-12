@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.karurmallow.demotestingapp-mergeDebugResources-45:/layout/ma_activity_view_movie.xml",
+        "source": "com.karurmallow.demotestingapp-main-48:/layout/ma_activity_view_movie.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-mergeDebugResources-45:/layout/ma_activity_movie_list.xml",
+        "source": "com.karurmallow.demotestingapp-main-48:/layout/ma_activity_movie_list.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-mergeDebugResources-45:/layout/ma_adapter_movie_cell.xml",
+        "source": "com.karurmallow.demotestingapp-main-48:/layout/ma_adapter_movie_cell.xml"
+    }
+]

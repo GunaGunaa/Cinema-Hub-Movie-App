@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="integer_0">0</integer>
+    <integer name="integer_1">1</integer>
+    <integer name="integer_2">2</integer>
+    <integer name="integer_3">3</integer>
+    <integer name="integer_8">8</integer>
+    <integer name="integer_24">24</integer>
+    <integer name="integer_360">360</integer>
+</resources>

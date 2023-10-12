@@ -1,0 +1,1 @@
+{"className":"com.karurmallow.demotestingapp.common.MAApplication","classAnnotations":[],"interfaces":["android.content.ComponentCallbacks","android.content.ComponentCallbacks2"],"superClasses":["android.app.Application","android.content.ContextWrapper","android.content.Context","java.lang.Object"]}

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Movie Application</string>
+    <string name="title">Movies</string>
+    <string name="movie_name">THE MOVIE NAME</string>
+    <string name="movie_date">1994/09/10</string>
+    <string name="movie_description">A genre means a type of movie. Movies can be fictional, or non-fictional. Even though hundreds of movies are made every year, there are not like another movie. Some movies can be two or more genres. 1. Action movies are movies where the main character is in a dangerous situation, and the movies usually have a lot of violent things, like explosions, blood, and fight scenes.</string>
+    <string name="movie_language">English</string>
+    <string name="rating">Rating - 8</string>
+    <string name="total_reviews">(5234)</string>
+    <string name="no_internet">No internet</string>
+    <string name="internet_connected">Back online</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="arabic">Arabic</string>
+    <string name="thai">Thai</string>
+    <string name="japanese">Japanese</string>
+    <string name="no_movies">No movies available</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">exit</string>
+    <string name="exit_message_1">Are you sure you \n \t want to %s %s</string>
+</resources>

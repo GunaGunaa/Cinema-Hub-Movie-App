@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/cl_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milky_orange"
+    tools:context=".movie_list.MAMovieListActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_vertical_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_vertical_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.97" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_movie_list"
+        android:layout_width="@dimen/spacing_0"
+        android:layout_height="@dimen/spacing_55"
+        android:background="@color/white"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_movie_list_order_filter"
+        android:layout_width="@dimen/spacing_30"
+        android:layout_height="@dimen/spacing_30"
+        app:layout_constraintBottom_toBottomOf="@id/tb_movie_list"
+        app:layout_constraintEnd_toStartOf="@id/gl_vertical_end"
+        app:layout_constraintTop_toTopOf="@id/tb_movie_list" />
+
+    <ImageView
+        android:id="@+id/iv_filter_language"
+        android:layout_width="@dimen/spacing_30"
+        android:layout_height="@dimen/spacing_30"
+        android:layout_marginEnd="@dimen/spacing_19"
+        android:background="@drawable/ic_language_filter"
+        app:layout_constraintBottom_toBottomOf="@id/tb_movie_list"
+        app:layout_constraintEnd_toStartOf="@id/iv_movie_list_order_filter"
+        app:layout_constraintTop_toTopOf="@id/tb_movie_list" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="@dimen/spacing_0"
+        android:layout_height="@dimen/spacing_1"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toBottomOf="@id/tb_movie_list"
+        app:layout_constraintEnd_toEndOf="@id/tb_movie_list"
+        app:layout_constraintStart_toStartOf="@id/tb_movie_list" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_22"
+        app:layout_constraintBottom_toBottomOf="@id/tb_movie_list"
+        app:layout_constraintEnd_toStartOf="@id/gl_vertical_end"
+        app:layout_constraintStart_toEndOf="@id/gl_vertical_start"
+        app:layout_constraintTop_toTopOf="@id/tb_movie_list" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/sv_movie"
+        android:layout_width="@dimen/spacing_0"
+        android:layout_height="@dimen/spacing_36"
+        android:layout_marginTop="@dimen/spacing_10"
+        android:background="@drawable/bg_search_view"
+        android:clickable="true"
+        android:focusable="true"
+        app:iconifiedByDefault="false"
+        app:layout_constraintEnd_toStartOf="@id/gl_vertical_end"
+        app:layout_constraintStart_toEndOf="@id/gl_vertical_start"
+        app:layout_constraintTop_toBottomOf="@id/tb_movie_list"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tv_movie_unavailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_movies"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/font_19"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/gl_vertical_end"
+        app:layout_constraintStart_toEndOf="@id/gl_vertical_start"
+        app:layout_constraintTop_toBottomOf="@id/sv_movie" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/sl_refresher"
+        android:layout_width="@dimen/spacing_0"
+        android:layout_height="@dimen/spacing_0"
+        android:layout_marginTop="@dimen/spacing_10"
+        app:layout_constraintBottom_toTopOf="@id/cl_progress_bar"
+        app:layout_constraintEnd_toStartOf="@id/gl_vertical_end"
+        app:layout_constraintStart_toEndOf="@id/gl_vertical_start"
+        app:layout_constraintTop_toBottomOf="@id/sv_movie">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_movie_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_network_banner"
+        android:layout_width="@dimen/spacing_0"
+        android:layout_height="@dimen/spacing_25"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_network_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.2"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_progress_bar"
+        android:layout_width="@dimen/spacing_0"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/gl_vertical_end"
+        app:layout_constraintStart_toEndOf="@id/gl_vertical_start">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="@dimen/spacing_0"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/custom_progresss_bar"
+            app:layout_constraintBottom_toBottomOf="@id/cl_progress_bar"
+            app:layout_constraintEnd_toEndOf="@id/cl_progress_bar"
+            app:layout_constraintStart_toStartOf="@id/cl_progress_bar"
+            app:layout_constraintTop_toTopOf="@id/cl_progress_bar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

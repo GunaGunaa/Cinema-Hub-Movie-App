@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_bg_search_view.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/bg_search_view.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_ic_language_filter.png.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/ic_language_filter.png"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_ic_descending_order.png.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/ic_descending_order.png"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/menu_language_menu.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/menu/language_menu.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_bg_movie_cell.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/bg_movie_cell.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_iv_network_error.jpg.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/iv_network_error.jpg"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_custom_progresss_bar.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/custom_progresss_bar.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/font_lato.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/font/lato.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/font_lato_bold.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/font/lato_bold.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/xml_rc_defaults.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/xml/rc_defaults.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/layout_ma_adapter_movie_cell.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/layout/ma_adapter_movie_cell.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/layout_ma_activity_view_movie.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/layout/ma_activity_view_movie.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_iv_movie_cover_poster.png.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/iv_movie_cover_poster.png"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/font_lato_light.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/font/lato_light.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/layout_ma_activity_movie_list.xml.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/layout/ma_activity_movie_list.xml"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.karurmallow.demotestingapp-merged_res-46:/drawable_ic_ascending_order.png.flat",
+        "source": "com.karurmallow.demotestingapp-main-48:/drawable/ic_ascending_order.png"
+    }
+]
