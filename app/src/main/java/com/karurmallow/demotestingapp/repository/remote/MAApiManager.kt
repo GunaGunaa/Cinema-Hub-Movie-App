@@ -10,9 +10,7 @@ import retrofit2.Callback
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-/**
- * Created by Gowthamchandran.R on 24/11/2022
- */
+
 object MAApiManager {
     private const val MOVIE_BASE_URL = "https://api.themoviedb.org"
     private val logger : HttpLoggingInterceptor = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)

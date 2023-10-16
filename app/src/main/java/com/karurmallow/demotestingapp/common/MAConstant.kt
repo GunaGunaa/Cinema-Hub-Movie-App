@@ -1,7 +1,5 @@
 package com.karurmallow.demotestingapp.common
-/**
- * Created by Gowthamchandran.R on 14/12/2022
- */
+
 object MAConstant {
     const val MOVIES_TABLE = "moviesTable"
     const val IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"

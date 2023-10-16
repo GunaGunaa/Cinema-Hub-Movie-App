@@ -3,9 +3,7 @@ package com.karurmallow.demotestingapp.services
 import androidx.room.*
 import com.karurmallow.demotestingapp.model.MAMovieResults
 
-/**
- * Created by Gowthamchandran.R on 24/11/2022
- */
+
 @Dao
 interface MAMovieDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)

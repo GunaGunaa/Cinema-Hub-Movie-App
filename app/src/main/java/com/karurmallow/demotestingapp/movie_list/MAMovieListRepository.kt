@@ -17,9 +17,6 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-/**
- * Created by Gowthamchandran.R on 24/11/2022
- */
 object MAMovieListRepository {
     private val daoHelper: MADataBaseManager by lazy { MAApplication.appInstance.moviesDataBaseInstance }
     fun fetchMovieFromServer(userLanguage: String, pageNumber: Int,internet:Boolean, serverResponseCallBack: MAServerCallBack) {

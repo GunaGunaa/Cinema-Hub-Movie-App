@@ -22,9 +22,6 @@ import com.karurmallow.demotestingapp.model.MAMovieDetails
 import com.karurmallow.demotestingapp.model.MAMovieResults
 
 
-/**
- * Created by Gowthamchandran.R on 24/11/2022
- */
 class MAMovieListViewModel(application: Application) : AndroidViewModel(application) {
     var networkFlag=0
     var networkState :Boolean= false

@@ -7,9 +7,7 @@ import androidx.room.RoomDatabase
 import com.karurmallow.demotestingapp.model.MAMovieResults
 import com.karurmallow.demotestingapp.services.MAMovieDao
 
-/**
- * Created by Gowthamchandran.R on 24/11/2022
- */
+
 @Database(entities = [MAMovieResults::class], version = 1, exportSchema = false)
 abstract class MADataBaseManager : RoomDatabase() {
     abstract fun userDao(): MAMovieDao

@@ -12,9 +12,6 @@ import com.karurmallow.demotestingapp.common.MAConstant.IMAGE_BASE_URL
 import com.karurmallow.demotestingapp.databinding.MaAdapterMovieCellBinding
 import com.karurmallow.demotestingapp.model.MAMovieResults
 
-/**
- * created by Gowthamchandran.R on 24/11/2022
- */
 @Suppress("DEPRECATION")
 class MAMovieListAdapter(private val context: Context,private val returnMovie:(MAMovieResults)->Unit) : RecyclerView.Adapter<MAMovieListAdapter.MAMovieViewHolder>() {
 

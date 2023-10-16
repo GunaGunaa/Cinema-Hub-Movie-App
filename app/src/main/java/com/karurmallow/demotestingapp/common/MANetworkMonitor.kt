@@ -10,9 +10,7 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.LiveData
 
-/**
- * Created by Gowthamchandran.R on 25/11/2022
- */
+
 class MANetworkMonitor(private val connectivityManager: ConnectivityManager) : LiveData<Boolean>() {
     constructor(application: Application) : this(application.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager)
 

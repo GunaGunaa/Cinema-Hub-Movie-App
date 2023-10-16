@@ -6,9 +6,6 @@ import com.karurmallow.demotestingapp.common.MAConstant.MOVIES_TABLE
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
-/**
- * Created by Gowthamchandran.R on 24/11/2022
- */
 
 @Entity(tableName = MOVIES_TABLE)
 data class
